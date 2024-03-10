@@ -37,20 +37,22 @@ body {
   background-color: #2be7ee !important;
   color: aliceblue;
 }
+.custom-card-description {
+  font-size: 14px; /* Cambia este valor al tamaño de letra deseado */
+  color: white;
+}
 
 #mensaje-enviado {
   display: none;
   color: #2be7ee; /* Color celeste */
   font-weight: bold;
-  margin-top: 10px;
+  margin-bottom: 40px;
 }
 
 footer {
-  background-color: #2be7ee; 
- 
+  background-color: #2be7ee;
 }
 footer h5 {
-  color: white; 
-  font-size: 24px; 
-  
+  color: white;
+  font-size: 24px;
 }
