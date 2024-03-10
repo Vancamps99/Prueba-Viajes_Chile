@@ -21,3 +21,19 @@ body {
   font-family: "Open Sans", sans-serif;
   color: aliceblue;
 }
+.black-bg {
+  background-color: #000;
+  color: #fff; /* Cambia el color del texto */
+}
+
+.svg-container {
+  background-color: #2be7ee; /* Color celeste de fondo */
+
+  text-align: center; /* Centra el contenido horizontalmente */
+  border-radius: 10px; /* Redondea las esquinas si es necesario */
+}
+
+.custom-card {
+  background-color: #2be7ee !important;
+  color: aliceblue;
+}
