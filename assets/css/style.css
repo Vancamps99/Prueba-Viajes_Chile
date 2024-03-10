@@ -2,6 +2,21 @@
   margin: 0;
   padding: 0;
 }
+.viajescl {
+  width: 5%;
+  height: 5%;
+}
+/* Estilos para la marca del navbar */
+.navbar-brand span {
+  font-size: 1rem; /* Tamaño de la fuente para el texto de la marca */
+  color: aliceblue;
+}
+
+/* Estilos para los elementos de la lista del menú de navegación */
+.navbar-nav .nav-link {
+  font-size: 12px; /* Tamaño de la fuente para los enlaces del menú */
+  color: aliceblue;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: aliceblue;
