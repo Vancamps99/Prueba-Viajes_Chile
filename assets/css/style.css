@@ -37,3 +37,10 @@ body {
   background-color: #2be7ee !important;
   color: aliceblue;
 }
+
+#mensaje-enviado {
+  display: none;
+  color: #2be7ee; /* Color celeste */
+  font-weight: bold;
+  margin-top: 10px;
+}
