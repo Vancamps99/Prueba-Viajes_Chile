@@ -44,3 +44,13 @@ body {
   font-weight: bold;
   margin-top: 10px;
 }
+
+footer {
+  background-color: #2be7ee; 
+ 
+}
+footer h5 {
+  color: white; 
+  font-size: 24px; 
+  
+}
