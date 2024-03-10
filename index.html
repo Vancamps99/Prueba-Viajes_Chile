@@ -118,73 +118,174 @@
       </div>
     </header>
 
-    <div class="container">
-      <h1>Quienes Somos</h1>
-      <hr />
-      <section>
-        <!-- Contenido de la sección -->
-        <!-- Primer SVG -->
-        <div>
-          <div>
-            <i class="fa-solid fa-plane"></i>
-          </div>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
-            quo perspiciatis optio, nostrum nesciunt magni rerum quia doloribus
-            modi deserunt laboriosam, reprehenderit praesentium dicta,
-            doloremque quis consequatur ipsum asperiores! Ex.
-          </p>
+    <div class="container-fluid black-bg full-width pt-4">
+      <h1 id="quienes-somos" class="text-center">Quienes Somos</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-md-12 col-12">
+          <hr />
         </div>
-        <!-- Segundo SVG -->
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
-            blanditiis ab possimus impedit laboriosam. Sit nesciunt omnis quidem
-            obcaecati eligendi ea beatae veniam officia quos, sapiente
-            asperiores quam error architecto.
-          </p>
-          <div>
-            <i class="fa-solid fa-mountain"></i>
-          </div>
-        </div>
-        <!-- Tercer SVG -->
-        <div>
-          <div>
-            <i class="fa-solid fa-route"></i>
-          </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            nulla inventore natus quos unde distinctio, tempore quibusdam,
-            accusantium possimus officia aliquid deleniti alias facere quia
-            odio? Obcaecati sequi corrupti porro!
-          </p>
-        </div>
-      </section>
-      <h1>Destacados</h1>
-      <hr />
-      <div>
-        <!-- Agrega tus tarjetas destacadas aquí -->
       </div>
-      <h1>Contacto</h1>
-      <form>
-        <div>
-          <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" />
+
+      <div class="d-none d-sm-block">
+        <section class="row justify-content-center">
+          <!-- Contenido de la sección -->
+          <!-- Primer SVG -->
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="svg-container mt-5">
+              <i class="fa-solid fa-plane mt-2"></i>
+            </div>
+            <p class="text-center mt-3">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Aspernatur quo perspiciatis optio, nostrum nesciunt magni rerum
+              quia doloribus modi deserunt laboriosam, reprehenderit praesentium
+              dicta, doloremque quis consequatur ipsum asperiores! Ex.
+            </p>
+          </div>
+
+          <!-- Segundo SVG -->
+          <div class="col-lg-3 col-md-4 col-12">
+            <p class="text-center mt-5">
+              <!-- Cambia el orden en pantallas medianas y grandes -->
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+              blanditiis ab possimus impedit laboriosam. Sit nesciunt omnis
+              quidem obcaecati eligendi ea beatae veniam officia quos, sapiente
+              asperiores quam error architecto.
+            </p>
+            <div class="svg-container mt-4">
+              <!-- Cambia el orden en pantallas medianas y grandes -->
+              <i class="fa-solid fa-mountain mb-3"></i>
+            </div>
+          </div>
+
+          <!-- Tercer SVG -->
+          <div class="col-lg-3 col-md-4 col-12">
+            <div class="svg-container mt-5">
+              <!-- Ajuste del margen superior aquí -->
+              <i class="fa-solid fa-route mt-2"></i>
+            </div>
+            <p class="text-center mt-3">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              nulla inventore natus quos unde distinctio, tempore quibusdam,
+              accusantium possimus officia aliquid deleniti alias facere quia
+              odio? Obcaecati sequi corrupti porro!
+            </p>
+          </div>
+        </section>
+      </div>
+      <h1 class="text-center" id="destacados">Destacados</h1>
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-md-10 col-12">
+          <hr />
         </div>
-        <div>
-          <label for="asunto">Asunto</label>
-          <input type="text" id="asunto" />
+        <div class="row justify-content-center">
+          <!-- Primera Card -->
+          <div class="col-lg-2 col-md-3 col-12 mb-5">
+            <div class="card custom-card">
+              <img
+                src="assets/img/card1.jpg"
+                class="card-img-top w-100"
+                alt="card1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Segunda Card -->
+          <div class="col-lg-2 col-md-3 col-12 mb-5">
+            <div class="card custom-card">
+              <img
+                src="assets/img/card2.jpg"
+                class="card-img-top w-100"
+                alt="card2"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Tercera Card -->
+          <div class="col-lg-2 col-md-3 col-12 mb-5">
+            <div class="card custom-card">
+              <img
+                src="assets/img/card3.jpg"
+                class="card-img-top w-100"
+                alt="card3"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Cuarta Card -->
+          <div class="col-lg-2 col-md-3 col-12 mb-5">
+            <div class="card custom-card">
+              <img
+                src="assets/img/card4.jpg"
+                class="card-img-top w-100"
+                alt="card4"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" rows="4"></textarea>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-9 col-md-12 col-12">
+          <h1 id="contacto" class="text-center">Contacto</h1>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label"
+                >Asunto</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="4"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
         </div>
-        <button type="submit">Enviar</button>
-      </form>
+      </div>
     </div>
-    <!--parrafos-->
-    <!--cards-->
-    <!--formulario-->
     <!--Footer-->
 
     <!--scripts-->
