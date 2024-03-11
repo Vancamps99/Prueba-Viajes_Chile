@@ -5,6 +5,7 @@
 .viajescl {
   width: 5%;
   height: 5%;
+  margin-right: 8px;
 }
 /* Estilos para la marca del navbar */
 .navbar-brand span {
